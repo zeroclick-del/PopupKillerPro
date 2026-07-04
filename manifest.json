@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Popup Killer Pro",
+    "version": "0.2.0",
+    "description": "Automatically closes suspicious popup tabs and returns focus to the original tab.",
+  
+    "permissions": [
+      "tabs",
+      "storage"
+    ],
+  
+    "background": {
+      "service_worker": "src/background.js"
+    },
+  
+    "action": {
+      "default_popup": "popup/popup.html",
+      "default_title": "Popup Killer Pro"
+    },
+  
+  
+  
+    "options_page": "options/options.html"
+  }
